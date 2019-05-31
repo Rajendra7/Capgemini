@@ -1,0 +1,173 @@
+.hex {
+    stroke: white;
+    stroke-width: 10;
+    text-align: center;
+    font-size: 12px;
+  }
+  .MouseOverhex {
+    stroke: white;
+    stroke-width: 0.5;
+    
+  }
+  
+  #container {
+  margin-top: 20px;
+  width:600px;
+  left:200px;
+  background-color:#d1d8df;
+  color:#ccc;
+  }
+  #container {
+  height:600px;
+  position:absolute;
+  top:0;
+  }
+  
+  .d3-tip {
+    line-height: 1;
+    font-weight:normal;
+    padding: 12px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(87, 87, 209);
+  }
+  .d3.tip1 {
+      
+          background: blue;                                               /* NEW */
+          box-shadow: 0 0 5px #999999;                                    /* NEW */
+          color: #333;                                                    /* NEW */
+          display: none;                                                  /* NEW */
+          font-size: 12px;                                                /* NEW */
+          left: 130px;                                                    /* NEW */
+          padding: 10px;                                                  /* NEW */
+          position: absolute;                                             /* NEW */
+          text-align: center;                                             /* NEW */
+          top: 95px;                                                      /* NEW */
+          width: 80px;                                                    /* NEW */
+          z-index: 10;                                                    /* NEW */
+  }
+  div.tooltip {
+    position: absolute;	
+    text-align: center;	
+    width: 60px;	
+    height: 28px;		
+    padding: 2px;	
+    font: 12px sans-serif;	
+    background: lightsteelblue;	
+    border: 0px;					
+    border-radius: 8px;
+    /* width: 410px; */
+    
+   /*  pointer-events: none;	This line needs to be removed */
+      
+  }
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1;
+    color: rgb(87, 87, 209);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+  }
+  
+  /* Style northward tooltips differently */
+  .d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    border-box: box-sizing;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }

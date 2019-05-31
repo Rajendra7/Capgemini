@@ -1,0 +1,105 @@
+.mainheader_links 
+ {
+	  list-style-type: none;
+	  position:relative;
+	  margin: 0;
+	  padding: 15px;
+	  overflow: hidden;
+	  
+	  	  font-weight:bold;
+		  
+	  }
+		li 
+		{
+		  float: right;
+		}
+		li a 
+		{
+		  display: inline-block;
+		  color: #606060;
+		  text-align: center;
+		  padding: 15px 8px;
+		  margin-top:13px;
+		  text-decoration: none;font-family: 'Fjalla One', sans-serif;
+		}
+		li a:hover 
+		{
+		  color: #12adab;
+		  text-decoration:none;font-family: 'Fjalla One', sans-serif;
+		}
+		.active
+		{
+			color: #12abdb; 
+			text-decoration:none;font-family: 'Fjalla One', sans-serif;
+		}
+.contactbttn
+{
+float:right;padding: 13px 5px;
+border:none;
+font-family: 'Fjalla One', sans-serif;
+margin-top: 13px;
+margin-right:11px;
+height:40px;
+width:98px;
+font-size:14px;
+border:1px solid transparent;
+color:#ffffff;background-color:#12abdb;
+border-radius:3px;
+}
+        
+.text
+{
+width:61%;
+position:absolute;
+top:9%;
+left:4%;
+height: 100px;
+color:#ffffff;
+margin-bottom: 15px;
+ }
+
+
+ .cglogo{
+    position:absolute;
+    right:4%;
+    top:8%;
+    }
+
+.cglogo .capglogo
+    {
+    width:124px;height:24px;
+    }
+.cloudlogo
+    {
+    width:210px;
+    height:65px;
+    border:0;
+    }
+    
+h4
+{
+text-transform:uppercase;color:#ffffff;font-size:48px;font-weight:bold;font-family: 'Fjalla One', sans-serif;
+}
+
+.head {	
+	font-family: 'Fjalla One', sans-serif;
+	position:absolute;
+	right:40%;
+	top:38%;
+}
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.main {
+		width: 80%;
+		padding: 0;
+	}
+	.right {
+		width: 100%;
+	}
+}
+@media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+		width: 100%;
+	}
+}

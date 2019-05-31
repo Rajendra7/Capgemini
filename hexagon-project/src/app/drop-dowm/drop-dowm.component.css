@@ -1,0 +1,20 @@
+
+.image{
+    background-color: aliceblue;
+    min-height: 100%;
+}
+.control-label
+{
+text-transform:uppercase;font-size:20px;font-weight:bold;font-family: 'Fjalla One', sans-serif;
+
+}
+.form-group {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+}
+.form-field {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+}

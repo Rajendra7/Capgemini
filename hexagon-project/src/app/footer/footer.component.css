@@ -1,0 +1,59 @@
+
+
+  .remarks{
+    position: fixed; 
+     bottom:50px;
+      width: 200px;
+      height: 80px; 
+    border-style:none;
+    right: 0px;  
+  }
+
+  .color-box1{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+   
+  } 
+
+  .color-box2{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+  }
+
+  .title-name1{
+position: relative;
+padding-left: 30px;
+  }
+  .title-name2{
+    position: relative;
+    padding-left: 30px;
+  }
+  .In-Development{
+    position: relative;
+padding-top: 10px;
+  }
+  .In-Released{
+    position: relative;
+    padding-top: 10px;
+  }
+
+  .text{
+    position: fixed;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* padding: 1rem; */
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    /* border-color: rgb(146, 70, 218); */
+    filter: drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
+  }

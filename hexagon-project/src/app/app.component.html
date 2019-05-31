@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+<div class="container">
+
+  <form #hexForm="ngForm">
+    <div class="form-group">
+      <label class="control-label"><b>Sector:</b></label>
+      <select *ngIf="sectorsList" (change)="selectSector($event)" class="form-control input-lg" id="sector"
+        disabled={{sectorDisable}}>
+        <option value="0">-----Select Sector-----</option>
+        <option *ngFor="let sector of sectorsList" value="{{sector.name}}">{{sector.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label"><b>Function:</b></label>
+      <select *ngIf="functionsList" (change)="selectFunction($event)" class="form-control input-lg" id="function"
+        disabled={{functionDisable}}>
+        <option value="0">--------------Select Function--------------</option>
+        <option *ngFor="let function of functionsList" value="{{function.name}}">{{function.name}}</option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label class="control-label"><b>Category:</b></label>
+      <select *ngIf="categoriesList" (change)="selectCategory($event)" class="form-control input-lg" id="category"
+        disabled={{catagoryDisable}}>
+        <option value="0">----------Select Category----------</option>
+        <option *ngFor="let category of categoriesList" value="{{category.name}}">{{category.name}}</option>
+      </select>
+    </div>
+
+
+    <div class="backButton">
+      <button class="button dropdownReset" (click)="dropdownReset(); ">Reset</button>
+    </div>
+
+  </form>
+
+</div>
+<div class="svgContainer">
+  <svg></svg>
+</div>
+
+<app-footer></app-footer>
